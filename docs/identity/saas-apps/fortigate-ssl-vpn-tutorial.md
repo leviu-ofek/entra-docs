@@ -88,7 +88,7 @@ Follow these steps to enable Microsoft Entra SSO in the Azure portal:
     `https://<FortiGate IP or FQDN address>:<Custom SSL VPN port>/remote/saml/login`.
 
     d. In the **Logout URL** box, enter a URL in the pattern
-    `https://<FortiGate IP or FQDN address>:<Custom SSL VPN port><FQDN>/remote/saml/logout`.
+    `https://<FortiGate IP or FQDN address>:<Custom SSL VPN port>/remote/saml/logout`.
 
     > [!NOTE]
     > These values are just patterns. You need to use the actual **Sign on URL**, **Identifier**, **Reply URL**, and **Logout URL** that is configured on the FortiGate.
